@@ -25,7 +25,7 @@ nav h1{
 
 nav ul{
     display: flex;
-    margin-left: 49em;
+    margin-left: 45em;
     margin-top: 35px;
     
 }
@@ -58,8 +58,8 @@ a{
 /* Parte escrita  */
 .card{
     height: 100%;
-    width: 643px;
-    margin-left: 350px;
+    width: 750px;
+    margin-left: 290px;
     text-align: center;
     margin-top: 57px;
     background-color: rgba(244, 247, 242, 0.6);

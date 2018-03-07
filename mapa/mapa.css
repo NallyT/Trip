@@ -50,7 +50,7 @@ a{
 
 .card{
     margin-top: 57px;
-    height: 100%;
+    height: 45em;
     width: 643px;
     margin-left: 350px;
     background-color: rgba(244, 247, 242, 0.6);
@@ -67,25 +67,287 @@ margin: 57px;
 font-size: 50px;
 text-align: center;
 color: darkcyan;
+margin-bottom: 3px;
+padding-bottom: 12px;
 }
 
-.bandeira{
-    background-image: url(../img/brasil.jpg);
-    height: 184px;
-    width: 284px;
-    background-repeat: no-repeat;
-    border-color: green;
-    margin-bottom: 100px;
-    transition: 1s;
+.divisao{
+    margin: 57px;
+    font-size: 50px;
+    text-align: center;
+    color: darkcyan;
+    margin-bottom: 3px;
+    padding-bottom: 12px;
+}
+.ul{
+    list-style: none;
 }
 
-div{
-    background-image: url(../img/brasil.jpg);
-    height: 184px;
-    width: 284px;
+.estados{
+    float: left;
+    width: 16.6%;
+    height: 30px;
+    margin: 19px 0;
+}
+
+.block{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.brasil{
+    background-size: 74px 79px;
+    border-radius: 20px;
+    width: 100px;
+    height: 80px;
+}
+
+.flag{
     background-repeat: no-repeat;
-    border-color: green;
-    margin-bottom: 100px;
-    transition: 1s;
-    position: absolute;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/acre.png")
+}
+
+.flag2{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/amapa.jpg")
+}
+.flag3{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/amazonas.png")
+}
+
+.flag4{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/para.png")
+}
+
+.flag5{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/rondomia.png")
+}
+
+.flag6{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/roraima.png")
+}
+
+.flag7{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/tocantins.png")
+}
+
+.flag8{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/alagoas.png")
+}
+
+.flag9{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/bahia.png")
+}
+
+.flag10{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/ceara.png")
+}
+
+.flag11{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Maranhão.png")
+}
+
+.flag12{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/DistritoFederal.png")
+}
+
+.flag13{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/goias.png")
+}
+
+.flag14{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/MatoGrosso.png")
+}
+
+.flag15{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Mato_GrossoSul.png")
+}
+
+.flag16{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/EspiritoSanto.jpg")
+}
+
+.flag17{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/MinasGerais.png")
+}
+
+.flag18{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Rio.png")
+}
+
+.flag19{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/SP.png")
+}
+
+.flag20{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Paraná.jpg")
+}
+
+.flag21{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/SantaCatarina.png")
+}
+
+.flag22{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/RGS.png")
+}
+
+.flag23{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/pernambuco.png")
+}
+
+.flag24{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Paraíba.png")
+}
+
+.flag25{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Sergipe.png")
+}
+
+.flag26{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/Piaui.png")
+}
+
+.flag27{
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/RGN.png")
+}
+
+.span{
+    color: #666;
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
 }

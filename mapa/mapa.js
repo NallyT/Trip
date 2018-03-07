@@ -1,7 +1,2 @@
-console.log('quadrado');
+alert("Bem-Vindo á pagina de Mapas");
 
-let quadrado = document.querySelector('div');
-
-function descer(){
-    quadrado.style.transform = 'translateY(100px)';
-}
